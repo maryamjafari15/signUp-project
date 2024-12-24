@@ -1,0 +1,55 @@
+.container3 {
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin:  auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f96c;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h1 {
+  margin-bottom: 20px;
+}
+
+.contact-container .input-box2 {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-box2 label {
+  
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-box2 input,
+.input-box2 textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #db3495;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #c32e81;
+}

@@ -10,20 +10,27 @@ align-items: center;
 }
 .imgAbout {
   width: 20vw;
+
+  box-shadow:3px 3px 3px 1px rgb(0 0 0 / 30%);
 }
 .content2{
     flex: 3;
-    margin-left: 10%;
+    margin-left: 15%;
     align-items: center;
+   
    
 }
 .imgContainer2{
     flex: 2;
     width: auto;
-    margin-left: 10%;
+    
 }
 .content2 h1{
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom:50px;
     font-weight: 700;
+}
+.container2 p {
+  width: 80%;
+  text-align: justify;
 }

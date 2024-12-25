@@ -1,8 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# React Vite Project with Sign Up and Login Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a modern **React** project created with **Vite**. It includes a fully functional Sign Up and Login feature using Axios for API calls. The project is structured for scalability and maintainability, making it an excellent starting point for any web application.
+ This project is seamlessly deployed on **Vercel** to ensure fast and reliable performance.
+## **Preview**
+
+Here’s a preview of the application:
+
+![App Screenshot](src/assets/screenshot.JPG)
+
+## 🌟 Features
+⚡️ Fast Development with Vite
+🔒 Authentication:
+User Sign Up
+User Login
+🌐 Axios for seamless HTTP requests
+🎨 Modern UI built with React
+🛠️ Easily customizable and extendable

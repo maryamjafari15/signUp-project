@@ -14,14 +14,14 @@ const Nav = ({showBtn= true}) => {
     </div>
     <ul className='nav'>
       <li className='nav-item'>
-        <a href='/'>Home</a>
+        <Link to='/'>Home</Link>
       </li>
       <li className='nav-item'>
-        <a href='/about'>About</a>
+        <Link to='/about'>About</Link>
       </li>
 
       <li className='nav-item'>
-        <a href='/contact'>Contact Us</a>
+        <Link to='/contact'>Contact Us</Link>
       </li>
     </ul>
     {showBtn &&

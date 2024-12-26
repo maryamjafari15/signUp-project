@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -10,28 +10,30 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home/>,
+      element: <Home />,
     },
     {
       path: "/login-page",
-      element: <Login/>,
+      element: <Login />,
     },
     {
       path: "/signup-page",
-      element: <SignUp/>,
+      element: <SignUp />,
     },
     {
       path: "/contact",
-      element: <ContactPage/>,
+      element: <ContactPage />,
     },
     {
       path: "/about",
-      element: <AboutPage/>,
+      element: <AboutPage />,
     },
   ]);
-  return <>
-   <RouterProvider router={router} />
-  </>;
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;

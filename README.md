@@ -11,10 +11,21 @@ Here’s a preview of the application:
 ![App Screenshot](src/assets/screenshot.JPG)
 
 ## 🌟 Features
-⚡️ Fast Development with Vite
-🔒 Authentication:
-User Sign Up
-User Login
-🌐 Axios for seamless HTTP requests
-🎨 Modern UI built with React
-🛠️ Easily customizable and extendable
+- ⚡️ Fast Development with Vite
+- 🔒 Authentication:
+- User Sign Up
+- User Login
+- 🌐 Axios for seamless HTTP requests
+- 🎨 Modern UI built with React
+- 🛠️ Easily customizable and extendable
+
+---
+
+## ⚙️ Technologies Used
+
+- **React**: Frontend framework.
+- **React Router**: For seamless navigation between pages.
+- **Axios**: For handling HTTP requests and connecting to APIs.
+- **Vercel**: Hosting and deployment platform.
+
+---

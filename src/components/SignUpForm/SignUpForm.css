@@ -40,3 +40,21 @@ height:100vh ;
          color: #333;
          margin: auto;
     }
+    @media (max-width: 1024px){
+        .containerSignUp form{
+            width: 80%;
+          
+        }
+        .containerSignUp h1{
+            font-size: 28px;
+            
+        }
+        .containerSignUp button{
+            font-size: 14px;
+        }
+    }
+    @media (max-width: 768px){
+        .containerSignUp form{
+            width: 90%;
+        }
+    }

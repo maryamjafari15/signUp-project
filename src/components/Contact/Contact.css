@@ -53,3 +53,30 @@
 .button1:hover {
   background-color: #c32e81;
 }
+
+
+@media (max-width: 480px) {
+  .container3 {
+    padding: 10px;
+  }
+
+  .contact-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .contact-container h1 {
+    font-size: 20px;
+  }
+
+  .input-box2 input,
+  .input-box2 textarea {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .button1 {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}

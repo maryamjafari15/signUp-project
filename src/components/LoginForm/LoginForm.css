@@ -94,3 +94,20 @@ margin: 10px 0;
 .register-link p a:hover{
     text-decoration: underline;
 }
+@media (max-width: 1024px){
+    .container form{
+        width: 80%;
+    }
+    .container h1{
+        font-size: 28px;
+        
+    }
+    .container button{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+    .container form{
+        width: 90%;
+    }
+}

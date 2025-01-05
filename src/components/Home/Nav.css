@@ -39,3 +39,111 @@ cursor: pointer;
     display: flex;
     gap: 10px;
   }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  .menu {
+    display: none;
+    cursor: pointer;
+  }
+  .dropdown-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+
+  @media (max-width: 1024px) {
+
+    .nav.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      gap: 15px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(230, 215, 215, 0.904); 
+      padding-top: 20vh;
+      z-index: 99;
+    }
+    .navbar ul{
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+      z-index: 999999;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      
+    }
+
+    .logo img{
+   position: absolute;
+   top: 0px;
+   left: 20px;
+  
+    }
+  
+    .btncontainer {
+      display: none;
+    }
+  
+    .dropdown-btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      z-index: 999999;
+    }
+  }
+  @media (max-width:768px) {
+    .menu {
+      display: block;
+      z-index: 999999;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .logo img{
+   position: absolute;
+   top: 0px;
+   left: 20px;
+  
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      height: 40px;
+    }
+  
+    .btncontainer {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+
+  
+
+  
+
+  
+
+  
+ 
+  
+
+  
+ 

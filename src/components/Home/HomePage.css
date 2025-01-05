@@ -43,4 +43,69 @@ box-shadow: 0 0 10px rgba(0, 0 , 0, 0.3);
  .mainsection .navbar{
   margin-right: 30%;
  }
-  
+ @media (max-width: 1024px) {
+  .mainsection {
+    width: 80%;
+    gap: 30px;
+  }
+
+  .mainsection h1 {
+    font-size: 3rem;
+  }
+
+  .mainsection .navbar {
+    margin-right: 0%;
+  }
+
+  .background1 {
+    box-shadow: none;
+  }
+  .mainsection p{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+   
+  }
+
+  .content1 {
+    width: 90%;
+   margin: auto;
+   flex: 2;
+  }
+
+  .background1 {
+    width: 100%;
+    flex: 3;
+  }
+
+  .mainsection {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .mainsection h1 {
+    font-size: 2.5rem;
+  }
+
+  .mainsection .navbar {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainsection h1 {
+    font-size: 2rem;
+  }
+
+  .mainsection {
+    width: 100%;
+    gap: 15px;
+  }
+
+}
